@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TOP NEWS</title>
+    <script src="https://kit.fontawesome.com/5375cbd5e7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="container">
+        <div id="header">
+            <span>My News</span>
+            <span id="search-icon"><i class="fas fa-search"></i></span>
+        </div>
+
+        <div id="box">
+
+        </div>
+    </div>
+
+    <div id="modal">
+        <div id="search-box">
+            <div id="x-icon"><i class="fas fa-times"></i></div>
+            <div>
+                <span><label for="keywords-search">Keywords: </label></span>
+                <input type="text" id="keywords-search" placeholder="Search...">
+                <button id='btn-search'>Search</button>
+                <br>
+                <p>Search by time:</p>
+                <label for="search-from">From: </label>
+                <input type="text" id="search-from" placeholder="dd/mm/yyyy" size="15">
+                <span id="error1"></span>
+                <br>
+                <label for="search-to">To: </label>
+                <input type="text" id="search-to" placeholder="dd/mm/yyyy" size="15">
+                <span id="error2"></span>
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
